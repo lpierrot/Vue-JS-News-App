@@ -1,6 +1,6 @@
 <template>
   <div id="app"> 
-    <h1>News AP</h1>
+    <h1>News APP</h1>
     <router-view></router-view>
   </div>
 </template>
