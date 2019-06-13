@@ -1,5 +1,6 @@
 <template>
   <div id="app"> 
+    <img src="./assets/image/news.jpg">
     <h1>News APP</h1>
     <router-view></router-view>
   </div>
@@ -19,5 +20,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color:cornsilk;
 }
 </style>

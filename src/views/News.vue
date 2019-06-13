@@ -60,17 +60,16 @@ export default {
         console.log (item)
         this.$router.push({ name: 'info', params: { item } })
     }
-
   }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .news {
   font-size: 1rem;
   box-sizing: border-box;
+  background-color: cornsilk;
 }
 input[type="text"]{
   border-top: none;

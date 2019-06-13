@@ -1,13 +1,11 @@
 <template>
   <div class="news">
-    <h2>Info</h2>
-      
+    <h2>Info</h2>      
         <div v-if="results"><p>
           <strong>{{results.title}}</strong>
         </p>
         <p>{{results.description}}</p>
         </div>
-
 
     <div class="no-results" v-if="!results">
       <h2>No Words Found</h2>
@@ -40,7 +38,6 @@ export default {
             this.errors.push('Error go home')
         }
     },
-
   methods: {
     findNews: function() {
       axios
@@ -63,7 +60,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .news {
   font-size: 1rem;
   box-sizing: border-box;
